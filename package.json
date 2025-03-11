@@ -1,5 +1,28 @@
 {
   "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
     "react-router-dom": "^7.3.0"
-  }
+  },
+  "name": "mern-app",
+  "version": "1.0.0",
+  "desciption": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dinesh89-D/MERN-AUTH.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dinesh89-D/MERN-AUTH/issues"
+  },
+  "homepage": "https://github.com/Dinesh89-D/MERN-AUTH#readme",
+  "description": ""
 }
