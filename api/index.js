@@ -11,6 +11,7 @@ mongoose.connect(process.env.MONG0_DB).then(()=>{
 })
 
 const app = express();
+app.use(express.json());
 app.listen(3000,()=>{
     console.log('Sever listening on port 3000!');
 });
